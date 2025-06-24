@@ -1,0 +1,372 @@
+/**
+ * Bridge MLS Admin Styles
+ * Version 3.0.0
+ */
+
+/* ===== Admin Layout ===== */
+.bridge-mls-admin {
+    max-width: 1200px;
+}
+
+.bridge-admin-container {
+    display: flex;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.bridge-admin-main {
+    flex: 1;
+    background: white;
+    padding: 30px;
+    border: 1px solid #ccd0d4;
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+}
+
+.bridge-admin-sidebar {
+    width: 300px;
+}
+
+/* ===== Form Styling ===== */
+.bridge-mls-admin .form-table th {
+    width: 200px;
+    font-weight: 600;
+}
+
+.bridge-mls-admin input[type="text"],
+.bridge-mls-admin input[type="url"],
+.bridge-mls-admin input[type="email"],
+.bridge-mls-admin input[type="tel"],
+.bridge-mls-admin input[type="number"],
+.bridge-mls-admin select {
+    width: 100%;
+    max-width: 400px;
+}
+
+.bridge-mls-admin .description {
+    color: #666;
+    font-style: italic;
+    margin-top: 5px;
+}
+
+/* ===== Sidebar Boxes ===== */
+.bridge-sidebar-box {
+    background: white;
+    border: 1px solid #ccd0d4;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+}
+
+.bridge-sidebar-box h3 {
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #23282d;
+}
+
+.bridge-sidebar-box p {
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+
+.bridge-sidebar-box code {
+    background: #f3f4f5;
+    padding: 2px 5px;
+    border-radius: 3px;
+    font-size: 13px;
+}
+
+.bridge-sidebar-box ol {
+    margin: 0 0 15px 20px;
+    padding: 0;
+}
+
+.bridge-sidebar-box ol li {
+    margin-bottom: 8px;
+}
+
+.bridge-sidebar-box .button {
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* ===== Debug Section ===== */
+.bridge-debug-section {
+    margin-top: 30px;
+    padding: 20px;
+    background: #f8f9fa;
+    border: 1px solid #e2e4e7;
+    border-radius: 4px;
+}
+
+.bridge-debug-section h2 {
+    margin-top: 0;
+    font-size: 18px;
+}
+
+#bridge-admin-api-status {
+    margin-top: 15px;
+}
+
+#bridge-admin-api-status ul {
+    margin: 10px 0 0 20px;
+    list-style: none;
+}
+
+#bridge-admin-api-status li {
+    padding: 5px 0;
+}
+
+/* ===== Documentation Page ===== */
+.bridge-mls-docs {
+    max-width: 1200px;
+}
+
+.bridge-docs-container {
+    display: flex;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.bridge-docs-toc {
+    width: 250px;
+    background: white;
+    border: 1px solid #ccd0d4;
+    padding: 20px;
+    position: sticky;
+    top: 32px;
+    height: fit-content;
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+}
+
+.bridge-docs-toc h3 {
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+.bridge-docs-toc ol {
+    margin: 0;
+    padding-left: 20px;
+}
+
+.bridge-docs-toc li {
+    margin-bottom: 8px;
+}
+
+.bridge-docs-toc a {
+    text-decoration: none;
+    color: #0073aa;
+}
+
+.bridge-docs-toc a:hover {
+    color: #00a0d2;
+    text-decoration: underline;
+}
+
+.bridge-docs-content {
+    flex: 1;
+    background: white;
+    border: 1px solid #ccd0d4;
+    padding: 30px;
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+}
+
+.bridge-docs-content section {
+    margin-bottom: 40px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #e2e4e7;
+}
+
+.bridge-docs-content section:last-child {
+    border-bottom: none;
+}
+
+.bridge-docs-content h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #23282d;
+}
+
+.bridge-docs-content h3 {
+    font-size: 18px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    color: #23282d;
+}
+
+.bridge-docs-content h4 {
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #23282d;
+}
+
+.bridge-docs-content p {
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.bridge-docs-content ul,
+.bridge-docs-content ol {
+    margin-bottom: 15px;
+    padding-left: 30px;
+}
+
+.bridge-docs-content li {
+    margin-bottom: 8px;
+    line-height: 1.6;
+}
+
+.bridge-docs-content pre {
+    background: #f3f4f5;
+    border: 1px solid #e2e4e7;
+    border-radius: 4px;
+    padding: 15px;
+    overflow-x: auto;
+    margin-bottom: 15px;
+}
+
+.bridge-docs-content code {
+    background: #f3f4f5;
+    padding: 2px 5px;
+    border-radius: 3px;
+    font-size: 13px;
+}
+
+.bridge-docs-content pre code {
+    background: none;
+    padding: 0;
+}
+
+/* ===== Notice Styles ===== */
+.bridge-mls-admin .notice {
+    margin: 15px 0;
+}
+
+.bridge-mls-admin .notice.inline {
+    display: inline-block;
+    margin: 0;
+    padding: 10px 15px;
+}
+
+/* ===== Responsive ===== */
+@media (max-width: 1024px) {
+    .bridge-admin-container,
+    .bridge-docs-container {
+        flex-direction: column;
+    }
+    
+    .bridge-admin-sidebar,
+    .bridge-docs-toc {
+        width: 100%;
+        position: static;
+    }
+}
+
+@media (max-width: 768px) {
+    .bridge-admin-main,
+    .bridge-docs-content {
+        padding: 20px;
+    }
+    
+    .bridge-sidebar-box {
+        padding: 15px;
+    }
+    
+    .bridge-mls-admin .form-table th {
+        width: auto;
+        display: block;
+        margin-bottom: 5px;
+    }
+    
+    .bridge-mls-admin .form-table td {
+        display: block;
+        margin-bottom: 20px;
+    }
+}
+
+/* ===== WordPress Admin Overrides ===== */
+.bridge-mls-admin .button-primary {
+    background: #0073aa;
+    border-color: #0073aa;
+    text-shadow: none;
+}
+
+.bridge-mls-admin .button-primary:hover {
+    background: #0085ba;
+    border-color: #0073aa;
+}
+
+.bridge-mls-admin .button-secondary {
+    background: #f7f7f7;
+    border-color: #ccc;
+    color: #555;
+}
+
+.bridge-mls-admin .button-secondary:hover {
+    background: #fafafa;
+    border-color: #999;
+    color: #23282d;
+}
+
+/* ===== Settings Section Headers ===== */
+.bridge-mls-admin h2 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e2e4e7;
+}
+
+/* ===== Form Field Improvements ===== */
+.bridge-mls-admin input[type="text"]:focus,
+.bridge-mls-admin input[type="url"]:focus,
+.bridge-mls-admin input[type="email"]:focus,
+.bridge-mls-admin input[type="tel"]:focus,
+.bridge-mls-admin input[type="number"]:focus,
+.bridge-mls-admin select:focus {
+    border-color: #0073aa;
+    box-shadow: 0 0 0 1px #0073aa;
+}
+
+/* ===== Documentation Table of Contents Active State ===== */
+.bridge-docs-toc a.active {
+    font-weight: 600;
+    color: #23282d;
+}
+
+/* ===== Success/Error States ===== */
+.bridge-test-success {
+    color: #46b450;
+    font-weight: 600;
+}
+
+.bridge-test-error {
+    color: #dc3232;
+    font-weight: 600;
+}
+
+/* ===== Loading States ===== */
+.bridge-loading {
+    opacity: 0.6;
+    pointer-events: none;
+}
+
+.bridge-loading:after {
+    content: '';
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin-left: 10px;
+    border: 2px solid #f3f4f5;
+    border-radius: 50%;
+    border-top-color: #0073aa;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    to { transform: rotate(360deg); }
+}
